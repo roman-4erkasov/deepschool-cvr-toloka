@@ -1,0 +1,126 @@
+<style scoped> 	
+    img { width: 100%; height: auto; }
+</style>
+
+Outline 
+<span style="font-weight:700"><u>each</u></span>
+&nbsp;barcode including it's number&nbsp;with a separate bounding box (rectangle).
+<br><br>
+
+<h1>Image acceptance criteria:</h1>
+
+<p>
+    <b>
+        Attention:
+        Photos that do not meet 
+        <u>any</u>
+        of the requirements will be rejected 
+        and not be paid!
+    </b>
+</p>
+<h2>1. Barcode outlined with it's number</h2>
+<h3>Bad Example №1 (bounding box contains only number):</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_03.png" 
+    alt=""
+>
+<br>
+<h3>
+    Bad Example №2 (bounding box contains barcode without a number):
+</h3>
+
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_04.png" 
+    alt=""
+>
+<br>
+<h3>Good Example&nbsp; №1 (barcode and it's number in a bounding box):</h3>
+<img 
+    alt="" 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/segm_01.png"
+>
+<br>
+<h2>
+    2. Do not outline barcode and it's number 
+    with different bounding boxes (rectangles)
+</h2>
+
+<h3>Bad Example №1:</h3>
+<img 
+    alt="" 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_01.png"
+>
+<br>
+<h3>Good Example&nbsp; №1:</h3>
+<img 
+    alt="" 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/segm_01.png"
+>
+<h2>3. Barcode and it's number a completely inside the bounding box.</h2>
+
+
+<h3>Bad Example №1 (Barcode goes beyond the bounding box):</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_05.png" 
+    alt=""
+>
+<h3>Bad Example № 2 (Number goes beyond the bounding box):</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_06.png" 
+    alt=""
+>
+<h3 style="font-size:15px">Good Example №1:</h3>
+<img 
+    alt="" 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/segm_01.png"
+>
+<h2>4. Do not leave too much empty space inside the bounding box bounding box with it's number must occupy between 70 and 100 percents of rectangle area.</h2>
+
+<h3>Bad Example №1 (Too much free space in the bounding box):</h3>
+<img 
+    alt="" 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_02.png"
+>
+<h3 style="font-size:15px">Good Example&nbsp; №1:</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/segm_01.png" 
+    alt=""
+>
+
+
+<h2>5. Each bbox must contain only one barcode with it's number.&nbsp;</h2><h3>Bad Example №1 (Two barcodes in the same bounding box):</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_08.png" 
+    alt=""
+>
+<br>
+<h3 style="font-size:15px">Good Example&nbsp; №1:</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/segm_01.png" 
+    alt=""
+>
+
+
+<h2>6. No foreign object in the bbox.</h2>
+<h3>Bad Example №1:</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/bad_segm_07.png" 
+    alt=""
+>
+
+<h3>Good Example&nbsp; №1:</h3>
+<img 
+    src="https://sandbox.toloka.yandex.com/api/proxy/barcodes-instruction-fatuus/segm_01.png" 
+    alt=""
+>
+<div>
+    <h1>Review of completed tasks</h1> 
+    <p>We usually check tasks within a few days. The maximum review period is 14 days.</p>
+</div>
+
+<div>
+    <b>Attention:</b> Photos that do not meet <u>any</u>
+    of the requirements will be rejected 
+    and not be paid!
+    <br><br><br><br><br><br>
+</div>
