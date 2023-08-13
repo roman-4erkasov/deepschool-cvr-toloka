@@ -1,0 +1,22 @@
+# n_tasks: 2
+use_kit_for_tasks: False
+environment: SANDBOX
+projects:
+    collection:
+        instruction_path: "content/instructions/collection_instruction.html"
+        log_level: DEBUG
+        tasks_path: "content/sandbox_tasks/collection.tsv"
+        reward_per_assignment: 0.01
+        overlap: 1
+    bbox_labeling:
+        instruction_path: "content/instructions/bbox_labeling_instruction.html"
+        log_level: DEBUG
+        tasks_path: "content/sandbox_tasks/bbox_labeling.tsv"
+        reward_per_assignment: 0.01
+        overlap: 1
+    ocr:
+        instruction_path: "content/instructions/ocr_instruction.html"
+        log_level: DEBUG
+        tasks_path: "content/sandbox_tasks/ocr.tsv"
+        reward_per_assignment: 0.01
+        overlap: 1
